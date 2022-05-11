@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class CheckGround : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
+    public static bool isGrounded;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        isGrounded=true;
     }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        isGrounded=false;
+    }    
 }
