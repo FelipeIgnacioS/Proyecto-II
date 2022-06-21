@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 437517ec574b77945863273e6b2ce449
+guid: ccc738f5b15e6e648bbf28e66e70344e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UceninRodandoEnElAire_0
+      name: Objetos 1_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 5
-        width: 21
-        height: 21
+        x: 17
+        y: 399
+        width: 66
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a4b5e51535e660458d0362e42da84d8
-      internalID: -708900109
+      spriteID: 24219e71161652c4c8a4fec32edf585b
+      internalID: 1721081653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UceninRodandoEnElAire_1
+      name: Objetos 1_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 7
-        width: 21
-        height: 16
+        x: 101
+        y: 400
+        width: 99
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17298c1f43d1dac42b4215c1a8e820d7
-      internalID: 1207730577
+      spriteID: 7356099855e7b5f40b9844b8c7c40bc5
+      internalID: 1605937858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UceninRodandoEnElAire_2
+      name: Objetos 1_2
       rect:
         serializedVersion: 2
-        x: 67
-        y: 13
-        width: 21
-        height: 5
+        x: 212
+        y: 410
+        width: 77
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,113 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7391033c8117a6b40acc60a878f059e0
-      internalID: 2109007148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UceninRodandoEnElAire_3
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 7
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4996fe0b0a316254598e6866e9401e90
-      internalID: -1086342061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UceninRodandoEnElAire_4
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 5
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c75d7a830d7338446ac60c0c68ad9589
-      internalID: -834940092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UceninRodandoEnElAire_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 8
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81f027e0a9bfbb7489247a0ac38dc861
-      internalID: 480391942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UceninRodandoEnElAire_6
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 13
-        width: 21
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c091e19592ff5d46b4dbbb6b38cb09d
-      internalID: 429916248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UceninRodandoEnElAire_7
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 7
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72413a5a49edce244bbe91448f5de6ee
-      internalID: 1010814803
+      spriteID: a51c34d9dbeb9c54288dc9a81f919ca1
+      internalID: 1634891164
       vertices: []
       indices: 
       edges: []
@@ -282,14 +177,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      UceninRodandoEnElAire_3: -1086342061
-      UceninRodandoEnElAire_5: 480391942
-      UceninRodandoEnElAire_4: -834940092
-      UceninRodandoEnElAire_6: 429916248
-      UceninRodandoEnElAire_0: -708900109
-      UceninRodandoEnElAire_1: 1207730577
-      UceninRodandoEnElAire_2: 2109007148
-      UceninRodandoEnElAire_7: 1010814803
+      Objetos 1_0: 1721081653
+      Objetos 1_1: 1605937858
+      Objetos 1_2: 1634891164
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
