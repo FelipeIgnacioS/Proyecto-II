@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
-    public int kantidad = 50;
+    public int kantidad;
 
     private void OnTriggerEnter2D(UnityEngine.Collider2D collision)
     {

@@ -50,7 +50,7 @@ public class MenuPausa : MonoBehaviour
 
     public void Cerrar()
     {
-        Debug.Log("Cerrar");
+        //Debug.Log("Cerrar");
         Application.Quit();
     }
 }

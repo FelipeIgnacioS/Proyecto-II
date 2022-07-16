@@ -3,15 +3,18 @@ using UnityEngine;
 
 public class HealthandDamage : MonoBehaviour
 {
-    public int vida = 100;
+    public int vida;
     public bool invecible = false;
     public float tiempo_invencible = 1f;
     public float tiempo_frenado = 0.2f;
+
+    public GameObject[] vidas;
 
     private Animator anim;
 
     private void Start()
     {
+        vida = vidas.Length;
         anim = GetComponent<Animator>();
     }
     public void RestarVida(int kantidad)
@@ -22,10 +25,21 @@ public class HealthandDamage : MonoBehaviour
             anim.Play("daños");
             StartCoroutine(Invulnerabilidad());
             StartCoroutine(FrenarVelocidad());
-            if (vida == 0)
+            if (vida<1)
             {
+                Destroy(vidas[0].gameObject);
                 gameOver();
+                
             }
+            else if (vida< 2)
+            {
+                Destroy(vidas[1].gameObject);
+            }
+            else if (vida<3)
+            {
+                Destroy(vidas[2].gameObject);
+            }
+            
         }
     }
     void gameOver()
