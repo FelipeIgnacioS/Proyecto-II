@@ -10,9 +10,10 @@ public class Enemigo2D : MonoBehaviour
     public int direccion;
     public float speed_walk;
     public float speed_run;
+    
     public GameObject target;
     public bool atacando;
-
+    Rigidbody2D rb2D;
     public float rango_vision;
     public float rango_ataque;
     public GameObject rango;
@@ -25,7 +26,6 @@ public class Enemigo2D : MonoBehaviour
         ani = GetComponent<Animator>();
         target = GameObject.Find("Ucenin");
     }
-
     public void Comportamientos()
     {
         if (Mathf.Abs(transform.position.x - target.transform.position.x) > rango_vision && !atacando)
