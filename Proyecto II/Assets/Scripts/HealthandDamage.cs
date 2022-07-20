@@ -4,6 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class HealthandDamage : MonoBehaviour
 {
+    private SpriteRenderer sPlayer;
+    private Color colorOriginal;
+
+    public float epilepsia = 0.2f;
     public int vida;
     public bool invecible = false;
     public float tiempo_invencible = 1f;
@@ -15,6 +19,8 @@ public class HealthandDamage : MonoBehaviour
     {
         vida = vidas.Length;
         anim = GetComponent<Animator>();
+        sPlayer = GetComponent<SpriteRenderer>();
+        colorOriginal = sPlayer.color;
     }
     public void RestarVida(int kantidad)
     {
@@ -52,8 +58,19 @@ public class HealthandDamage : MonoBehaviour
     IEnumerator Invulnerabilidad () 
 
     {
+        Color nuevocolor = new Color(217f / 255f, 81f / 255f, 81f / 255f);
         invecible = true;
-        yield return new WaitForSeconds(tiempo_invencible);
+        sPlayer.color = nuevocolor;
+        yield return new WaitForSeconds(epilepsia);
+        sPlayer.color = colorOriginal;
+        yield return new WaitForSeconds(epilepsia);
+        sPlayer.color = nuevocolor;
+        yield return new WaitForSeconds(epilepsia);
+        sPlayer.color = colorOriginal;
+        yield return new WaitForSeconds(epilepsia);
+        sPlayer.color = nuevocolor;
+        yield return new WaitForSeconds(epilepsia);
+        sPlayer.color = colorOriginal;
         invecible = false;
     }
     IEnumerator FrenarVelocidad()
