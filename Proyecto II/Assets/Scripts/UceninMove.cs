@@ -17,12 +17,14 @@ public class UceninMove : MonoBehaviour
 
     public Animator animator;
     public bool Hit = false;
-   
+
+    public bool item;
     void Start()
     {
         xInicial = transform.position.x;
         yInicial = transform.position.y;
         rb2D=GetComponent<Rigidbody2D>();
+        item = false;
     }
 
        
