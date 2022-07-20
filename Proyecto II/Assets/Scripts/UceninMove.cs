@@ -16,7 +16,7 @@ public class UceninMove : MonoBehaviour
     public SpriteRenderer spriteRenderer;
 
     public Animator animator;
-    
+    public bool Hit = false;
    
     void Start()
     {
@@ -30,6 +30,11 @@ public class UceninMove : MonoBehaviour
     {
         mover();
         Jump();
+        if (Hit)
+        {
+            rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
+            Hit = false;
+        }
 
     }
 
@@ -69,6 +74,7 @@ public class UceninMove : MonoBehaviour
         {
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
         }
+        
 
         if (CheckGround.isGrounded == false)
         {
