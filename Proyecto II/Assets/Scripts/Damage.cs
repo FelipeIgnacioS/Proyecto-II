@@ -11,6 +11,7 @@ public class Damage : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             collision.GetComponent<HealthandDamage>().RestarVida(kantidad);
+            
         }
     }
     private void OnTriggerStay2D(UnityEngine.Collider2D collision)

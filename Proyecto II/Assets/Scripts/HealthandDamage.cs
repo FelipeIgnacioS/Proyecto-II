@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthandDamage : MonoBehaviour
 {
@@ -7,9 +8,7 @@ public class HealthandDamage : MonoBehaviour
     public bool invecible = false;
     public float tiempo_invencible = 1f;
     public float tiempo_frenado = 0.2f;
-
     public GameObject[] vidas;
-
     private Animator anim;
 
     private void Start()
@@ -19,6 +18,7 @@ public class HealthandDamage : MonoBehaviour
     }
     public void RestarVida(int kantidad)
     {
+        
         if (!invecible && vida > 0)
         {
             vida -= kantidad;
@@ -27,25 +27,27 @@ public class HealthandDamage : MonoBehaviour
             StartCoroutine(FrenarVelocidad());
             if (vida<1)
             {
-                Destroy(vidas[0].gameObject);
+                vidas[0].gameObject.SetActive(false);
                 gameOver();
                 
             }
             else if (vida< 2)
             {
-                Destroy(vidas[1].gameObject);
+                vidas[1].gameObject.SetActive(false);
             }
             else if (vida<3)
             {
-                Destroy(vidas[2].gameObject);
+                vidas[2].gameObject.SetActive(false);
             }
             
         }
+      
     }
     void gameOver()
     {
+        anim.Play("Muerte");
         Debug.Log("Game Over");
-        Time.timeScale = 0;
+        SceneManager.LoadScene(3,LoadSceneMode.Single);
     }
     IEnumerator Invulnerabilidad () 
 
@@ -60,7 +62,19 @@ public class HealthandDamage : MonoBehaviour
         GetComponent<UceninMove>().runSpeed = 0;
         yield return new WaitForSeconds(tiempo_frenado);
         GetComponent<UceninMove>().runSpeed = velocidadActual;
+    }
 
-
+    public void SumLife()
+    {
+        if (vida==1)
+        {
+            vidas[1].gameObject.SetActive(true);
+            vida++;
+        }
+        else if (vida==2)
+        {
+            vidas[2].gameObject.SetActive(true);
+            vida++;
+        }
     }
 }

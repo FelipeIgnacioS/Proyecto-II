@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MenuInicial : MonoBehaviour
 {
+    public bool jg = false;
     public void Jugar()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1 );
+        jg = true;
     }
 
     public void Salir()
