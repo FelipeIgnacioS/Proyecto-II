@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.Audio;
 public class MenuPausa : MonoBehaviour
 {
     [SerializeField] private GameObject botonPausa;
 
     [SerializeField] private GameObject menuPausa;
+    public AudioSource clip;
 
     private bool juegoPausado = false;
 
@@ -52,5 +53,10 @@ public class MenuPausa : MonoBehaviour
     {
         //Debug.Log("Cerrar");
         Application.Quit();
+    }
+
+    public void playSound()
+    {
+        clip.Play();
     }
 }

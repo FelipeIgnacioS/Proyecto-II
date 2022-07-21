@@ -8,7 +8,7 @@ public class HealthandDamage : MonoBehaviour
     private Color colorOriginal;
 
     public float epilepsia = 0.2f;
-    public int vida;
+    private int vida;
     public bool invecible = false;
     public float tiempo_invencible = 1f;
     public float tiempo_frenado = 0.2f;
@@ -17,7 +17,7 @@ public class HealthandDamage : MonoBehaviour
 
     private void Start()
     {
-        vida = vidas.Length;
+        vida = 4;
         anim = GetComponent<Animator>();
         sPlayer = GetComponent<SpriteRenderer>();
         colorOriginal = sPlayer.color;
@@ -27,7 +27,7 @@ public class HealthandDamage : MonoBehaviour
         
         if (!invecible && vida > 0)
         {
-            vida -= kantidad;
+            vida -= 1;
             anim.Play("daños");
             StartCoroutine(Invulnerabilidad());
             StartCoroutine(FrenarVelocidad());
