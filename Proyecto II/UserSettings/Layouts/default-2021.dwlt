@@ -50,6 +50,7 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   controlID: 90
 =======
@@ -61,6 +62,9 @@ MonoBehaviour:
 =======
   controlID: 23
 >>>>>>> parent of d91871e (asdasd)
+=======
+  controlID: 90
+>>>>>>> parent of 84b4302 (lul)
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -80,13 +84,17 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of d80ec2f (pumba)
+=======
+>>>>>>> parent of 84b4302 (lul)
     width: 455
     height: 987
   m_MinSize: {x: 240, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     width: 364
@@ -96,6 +104,8 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of d80ec2f (pumba)
+=======
+>>>>>>> parent of 84b4302 (lul)
   m_ActualView: {fileID: 14}
 =======
     width: 364
@@ -128,9 +138,12 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of d80ec2f (pumba)
+=======
+>>>>>>> parent of 84b4302 (lul)
     width: 364
     height: 588
 =======
@@ -139,12 +152,6 @@ MonoBehaviour:
 >>>>>>> parent of d91871e (asdasd)
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-=======
-    width: 291.2
-    height: 435.2
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
->>>>>>> Stashed changes
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -275,6 +282,7 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   controlID: 91
 =======
@@ -286,6 +294,9 @@ MonoBehaviour:
 =======
   controlID: 24
 >>>>>>> parent of d91871e (asdasd)
+=======
+  controlID: 91
+>>>>>>> parent of 84b4302 (lul)
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -312,6 +323,7 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   controlID: 92
 =======
@@ -323,6 +335,9 @@ MonoBehaviour:
 =======
   controlID: 25
 >>>>>>> parent of d91871e (asdasd)
+=======
+  controlID: 92
+>>>>>>> parent of 84b4302 (lul)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -588,13 +603,17 @@ MonoBehaviour:
   m_FolderTreeState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of d80ec2f (pumba)
+=======
+>>>>>>> parent of 84b4302 (lul)
     scrollPos: {x: 0, y: 30}
     m_SelectedIDs: 9e670000
     m_LastClickedID: 26526
     m_ExpandedIDs: 000000007467000000ca9a3b
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     scrollPos: {x: 0, y: 17.400024}
@@ -610,6 +629,8 @@ MonoBehaviour:
     m_LastClickedID: 27600
     m_ExpandedIDs: 00000000ce6b0000d06b0000d26b0000486c0000
 >>>>>>> parent of d91871e (asdasd)
+=======
+>>>>>>> parent of 84b4302 (lul)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,6 +660,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_ExpandedIDs: 0000000074670000
 =======
@@ -650,6 +672,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000ce6b0000d06b0000d26b0000
 >>>>>>> parent of d91871e (asdasd)
+=======
+    m_ExpandedIDs: 0000000074670000
+>>>>>>> parent of 84b4302 (lul)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -779,6 +804,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       m_SelectedIDs: e6970000
       m_LastClickedID: 0
@@ -798,6 +824,11 @@ MonoBehaviour:
       m_LastClickedID: 40012
       m_ExpandedIDs: 02fbffff08fbfffff8670000846f0000
 >>>>>>> parent of d91871e (asdasd)
+=======
+      m_SelectedIDs: e6970000
+      m_LastClickedID: 0
+      m_ExpandedIDs: e6eeffffba970000
+>>>>>>> parent of 84b4302 (lul)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Ucenin
@@ -908,10 +939,10 @@ MonoBehaviour:
       containerId: overlay-toolbar__top
       floating: 0
       collapsed: 0
-<<<<<<< Updated upstream
       displayed: 1
 <<<<<<< HEAD
       snapOffset: {x: 0, y: 25}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       displayed: 0
@@ -922,6 +953,8 @@ MonoBehaviour:
 =======
       snapOffset: {x: 0, y: 0}
 >>>>>>> parent of d91871e (asdasd)
+=======
+>>>>>>> parent of 84b4302 (lul)
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Tilemap Focus
@@ -1082,6 +1115,7 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_Target: {x: 8.894836, y: 5.9844475, z: -0.037275147}
     speed: 2
@@ -1101,6 +1135,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.16307296, y: -0.34533265, z: 0.013923904}
 >>>>>>> parent of d91871e (asdasd)
+=======
+    m_Target: {x: 8.894836, y: 5.9844475, z: -0.037275147}
+    speed: 2
+    m_Value: {x: 8.810747, y: 6.044295, z: -0.03590901}
+>>>>>>> parent of 84b4302 (lul)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1153,6 +1192,7 @@ MonoBehaviour:
   m_Size:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_Target: 3.1724772
     speed: 2
@@ -1172,6 +1212,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 2.12891
 >>>>>>> parent of d91871e (asdasd)
+=======
+    m_Target: 3.1724772
+    speed: 2
+    m_Value: 3.0358634
+>>>>>>> parent of 84b4302 (lul)
   m_Ortho:
     m_Target: 1
     speed: 2
