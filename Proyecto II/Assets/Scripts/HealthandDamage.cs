@@ -53,7 +53,7 @@ public class HealthandDamage : MonoBehaviour
     {
         anim.Play("Muerte");
         Debug.Log("Game Over");
-        SceneManager.LoadScene(3,LoadSceneMode.Single);
+        SceneManager.LoadScene("GameOver",LoadSceneMode.Single);
     }
     IEnumerator Invulnerabilidad () 
 
