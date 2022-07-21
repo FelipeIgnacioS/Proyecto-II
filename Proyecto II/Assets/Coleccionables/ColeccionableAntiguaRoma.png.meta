@@ -20,6 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -107,10 +109,10 @@ TextureImporter:
       name: ColeccionableAntiguaRoma_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 42
-        height: 43
+        x: 4
+        y: 38
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +130,10 @@ TextureImporter:
       name: ColeccionableAntiguaRoma_1
       rect:
         serializedVersion: 2
-        x: 42
+        x: 7
         y: 0
-        width: 42
-        height: 43
+        width: 30
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +151,10 @@ TextureImporter:
       name: ColeccionableAntiguaRoma_2
       rect:
         serializedVersion: 2
-        x: 84
-        y: 0
-        width: 42
-        height: 43
+        x: 46
+        y: 3
+        width: 32
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +172,10 @@ TextureImporter:
       name: ColeccionableAntiguaRoma_3
       rect:
         serializedVersion: 2
-        x: 126
-        y: 0
-        width: 42
-        height: 43
+        x: 89
+        y: 2
+        width: 31
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,9 +193,9 @@ TextureImporter:
       name: ColeccionableAntiguaRoma_4
       rect:
         serializedVersion: 2
-        x: 168
+        x: 128
         y: 0
-        width: 42
+        width: 32
         height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -212,10 +214,10 @@ TextureImporter:
       name: ColeccionableAntiguaRoma_5
       rect:
         serializedVersion: 2
-        x: 210
-        y: 0
-        width: 42
-        height: 43
+        x: 140
+        y: 35
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,10 +235,10 @@ TextureImporter:
       name: ColeccionableAntiguaRoma_6
       rect:
         serializedVersion: 2
-        x: 252
-        y: 0
-        width: 42
-        height: 43
+        x: 169
+        y: 5
+        width: 34
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +256,10 @@ TextureImporter:
       name: ColeccionableAntiguaRoma_7
       rect:
         serializedVersion: 2
-        x: 294
-        y: 0
-        width: 42
-        height: 43
+        x: 170
+        y: 38
+        width: 7
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,6 +269,489 @@ TextureImporter:
       bones: []
       spriteID: 23ac7efa4a2d9174e9be52050f91234b
       internalID: -1979630376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 39
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaaf4b2de8b37a4d84161853a7b7ba7
+      internalID: 1917747769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 31
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db2779f2263d3e4aafc236b87d36912
+      internalID: -140354986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 39
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093a01a7a7963ce4a9e33f1f0c31b469
+      internalID: 1656315032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e829c15d2c4934080b9ea2d8e12a14
+      internalID: 83775510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_12
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 37
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b3394d307ce3543815131a89d3b498
+      internalID: 2064396328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 5
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cab908453a9d11469fdc020a6689f0f
+      internalID: -1336281302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_14
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 38
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c8a69d9429994428a9e5cf7d8305da
+      internalID: -351891184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aef6a0d65ffc2458edf4ff51e7167e
+      internalID: -665337743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 28
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a4a35484a1d20468940bcb12456abc
+      internalID: 1311539010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 5
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dae2b5b8687164ca098853de7256c8
+      internalID: -604878123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 17
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c47c4e5f97e6444a23c2ed03b6c5ca
+      internalID: -1740627406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8512dc58b0bcd6140b40b638b75e576e
+      internalID: -1812252864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_20
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 15
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f86b8a0222e004b9d51073a92bd0c1
+      internalID: -1947729118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_21
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98693b8114401e479ef46198d4e2aac
+      internalID: 2111518382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b803e6303eb3014982f95e00d9b2e62
+      internalID: 518941853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_23
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f576e50f7609df64ea9636d1c2680fa5
+      internalID: -121699154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_24
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a79424a47b8e142909564c7433eb4a
+      internalID: 111633949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_25
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e963979116f15c14b914ef9c14873b34
+      internalID: 550435809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_26
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d9f1da726e9fe44892cf2ce332e9b4
+      internalID: -460455278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_27
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755f7d12d5de48d4a98d5cdfab927e31
+      internalID: -451965970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0237943e45bfcb449e17e9fea28e0ec
+      internalID: 1571088006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_29
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c4dc9801b9dbf4596c20375499d88e
+      internalID: 1691234869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ColeccionableAntiguaRoma_30
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4325d985f07486c4499e3e38fc330b6c
+      internalID: 1038172976
       vertices: []
       indices: 
       edges: []
@@ -283,16 +768,38 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       ColeccionableAntiguaRoma_0: 1912838547
+      ColeccionableAntiguaRoma_26: -460455278
+      ColeccionableAntiguaRoma_28: 1571088006
+      ColeccionableAntiguaRoma_11: 83775510
       ColeccionableAntiguaRoma_3: -718659701
+      ColeccionableAntiguaRoma_13: -1336281302
+      ColeccionableAntiguaRoma_18: -1740627406
+      ColeccionableAntiguaRoma_12: 2064396328
+      ColeccionableAntiguaRoma_20: -1947729118
+      ColeccionableAntiguaRoma_22: 518941853
       ColeccionableAntiguaRoma_7: -1979630376
+      ColeccionableAntiguaRoma_16: 1311539010
+      ColeccionableAntiguaRoma_24: 111633949
+      ColeccionableAntiguaRoma_25: 550435809
+      ColeccionableAntiguaRoma_17: -604878123
+      ColeccionableAntiguaRoma_8: 1917747769
+      ColeccionableAntiguaRoma_10: 1656315032
+      ColeccionableAntiguaRoma_21: 2111518382
+      ColeccionableAntiguaRoma_23: -121699154
+      ColeccionableAntiguaRoma_30: 1038172976
+      ColeccionableAntiguaRoma_14: -351891184
+      ColeccionableAntiguaRoma_29: 1691234869
       ColeccionableAntiguaRoma_2: -793324570
+      ColeccionableAntiguaRoma_9: -140354986
       ColeccionableAntiguaRoma_1: 1538245044
+      ColeccionableAntiguaRoma_27: -451965970
+      ColeccionableAntiguaRoma_15: -665337743
+      ColeccionableAntiguaRoma_19: -1812252864
       ColeccionableAntiguaRoma_4: -1524358155
       ColeccionableAntiguaRoma_5: 1269437442
       ColeccionableAntiguaRoma_6: 473145514
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
