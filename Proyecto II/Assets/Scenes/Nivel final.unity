@@ -3275,12 +3275,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8748969752061925489, guid: 52476003aae964a4d9bf09338b8c0b30, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of d80ec2f (pumba)
       value: -2.085
       objectReference: {fileID: 0}
     - target: {fileID: 8748969752061925489, guid: 52476003aae964a4d9bf09338b8c0b30, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.61
+<<<<<<< HEAD
 =======
       value: -2.16
       objectReference: {fileID: 0}
@@ -3288,6 +3292,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.79
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of d80ec2f (pumba)
       objectReference: {fileID: 0}
     - target: {fileID: 8748969752061925489, guid: 52476003aae964a4d9bf09338b8c0b30, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22104,11 +22110,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121924119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalPosition: {x: -2.085, y: -0.40999997, z: -10}
 =======
   m_LocalPosition: {x: -2.16, y: -0.59, z: -10}
 >>>>>>> Stashed changes
+=======
+  m_LocalPosition: {x: -2.085, y: -0.40999997, z: -10}
+>>>>>>> parent of d80ec2f (pumba)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22228,11 +22238,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139025893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalPosition: {x: -2.085, y: -0.40999997, z: -10}
 =======
   m_LocalPosition: {x: -2.16, y: -0.59, z: -10}
 >>>>>>> Stashed changes
+=======
+  m_LocalPosition: {x: -2.085, y: -0.40999997, z: -10}
+>>>>>>> parent of d80ec2f (pumba)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
