@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class HealthandDamage : MonoBehaviour
 {
@@ -8,16 +9,16 @@ public class HealthandDamage : MonoBehaviour
     private Color colorOriginal;
 
     public float epilepsia = 0.2f;
-    public int vida;
+    private int vida;
     public bool invecible = false;
     public float tiempo_invencible = 1f;
     public float tiempo_frenado = 0.2f;
     public GameObject[] vidas;
     private Animator anim;
-
+    public AudioSource clip;
     private void Start()
     {
-        vida = vidas.Length;
+        vida = 4;
         anim = GetComponent<Animator>();
         sPlayer = GetComponent<SpriteRenderer>();
         colorOriginal = sPlayer.color;
@@ -27,10 +28,11 @@ public class HealthandDamage : MonoBehaviour
         
         if (!invecible && vida > 0)
         {
-            vida -= kantidad;
+            vida -= 1;
             anim.Play("daños");
             StartCoroutine(Invulnerabilidad());
             StartCoroutine(FrenarVelocidad());
+            clip.Play();
             if (vida<1)
             {
                 vidas[0].gameObject.SetActive(false);

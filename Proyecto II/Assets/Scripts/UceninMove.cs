@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class UceninMove : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class UceninMove : MonoBehaviour
     public bool Hit = false;
 
     public bool item;
+
+    public AudioSource clip;
+
     void Start()
     {
         xInicial = transform.position.x;
@@ -75,6 +79,7 @@ public class UceninMove : MonoBehaviour
         if (Input.GetKey("w") && CheckGround.isGrounded)
         {
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpSpeed);
+            clip.Play();
         }
         
 

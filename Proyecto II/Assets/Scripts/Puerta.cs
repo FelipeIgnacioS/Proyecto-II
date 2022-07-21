@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Audio;
 public class Puerta : MonoBehaviour
 {
     public GameObject noKey;
@@ -9,7 +9,7 @@ public class Puerta : MonoBehaviour
     public GameObject btnPuerta;
     public GameObject puerta;
     public GameObject puertafisica;
-
+    public AudioSource clip;
 
     void Start()
     {
@@ -24,6 +24,7 @@ public class Puerta : MonoBehaviour
         {
             GetComponent<UceninMove>().item = true;
             Destroy(collision.gameObject);
+            clip.Play();
         }
     }
 
