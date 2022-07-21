@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class HealthandDamage : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class HealthandDamage : MonoBehaviour
     public float tiempo_frenado = 0.2f;
     public GameObject[] vidas;
     private Animator anim;
-
+    public AudioSource clip;
     private void Start()
     {
         vida = 4;
@@ -31,6 +32,7 @@ public class HealthandDamage : MonoBehaviour
             anim.Play("daños");
             StartCoroutine(Invulnerabilidad());
             StartCoroutine(FrenarVelocidad());
+            clip.Play();
             if (vida<1)
             {
                 vidas[0].gameObject.SetActive(false);
