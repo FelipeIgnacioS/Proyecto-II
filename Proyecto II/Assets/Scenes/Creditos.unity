@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -435,7 +436,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -525,8 +525,8 @@ MonoBehaviour:
     Aranda\nMatias Palacios\n\nAnimation\nDanae Chaparro\n\nLevel Designer\nCristobal
     Rios\nHugo Rojas\n\nMusic Composer\nMatias Palacios\n\nPRODUCED BY \nUTIT STUDIOS\n\nCristobal
     Rios    \nDanae Chaparro\nFernando Aranda  \nFelipe Gallardo\t\nHugo Rojas       
-    \nInti Cerda\nMatias palacios\n\n\n\n\nAgradecimientos especiales a todos los
-    youtubers que subieron contenido para poder lograr esto.\n\nmuchas gracias por
+    \nInti Cerda\nMatias palacios\n\n\n\n\nAgradecimientos especiales al ayudante
+    por su disposicion a responder todas nuestras consultas.\n\nmuchas gracias por
     jugar nuestro juego.\nhasta la proxima."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 66d9c7de446684d4dbe5712107dcdf9a, type: 2}
