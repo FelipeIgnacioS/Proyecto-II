@@ -7763,6 +7763,10 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 1373898041}
+    - target: {fileID: 3058931704270331746, guid: 0fa285478f520d64c9bd3365b6330303, type: 3}
+      propertyPath: SceneName
+      value: Hielo
+      objectReference: {fileID: 0}
     - target: {fileID: 3058931705006107910, guid: 0fa285478f520d64c9bd3365b6330303, type: 3}
       propertyPath: m_Name
       value: PasarDeNivel
